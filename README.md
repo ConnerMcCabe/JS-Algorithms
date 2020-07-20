@@ -8,7 +8,7 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     ex; isPalindrome('taco cat') => true
     ex; isPalindrome('oyster') => false
 ### D3- Big O
-
+    running through different ways to solve a problem, finding nemo and taking a look at visualizing how long each approach is going to take using performance.now()
 
 ## Notes
 recursion vs iterative
@@ -18,10 +18,12 @@ recursion vs iterative
     2 components that make up a recursive function
     How to visualize the call stack to better understand and debug recursive functions
 
-Big O, asymptotic analysis- what is it? what are time complexities? It is useful in the analysis of algorithms and determining efficiency over time. How well was the problem solved, in coding there is often many ways to solve a problem and Big O allows us to objectively determine if it is a "better" solution
+Big O, asymptotic analysis- what is it? what are time complexities? It is useful in the analysis of algorithms and determining efficiency over time. How well was the problem solved, in coding there is often many ways to solve a problem and Big O allows us to objectively determine what is a "better" solution. So what is good code? it is 1. [readable] and 2. [scaleable]
+
+
 for simplicity it is reduced to a few base cases
 * 1- just the time it takes to do a single action
-* log²n
+* log²n- 
 * n- basically a one to one
 * n log²n- 
 * n²- takes forever, not a great solution

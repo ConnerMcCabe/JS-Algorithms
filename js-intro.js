@@ -20,3 +20,17 @@ function isPalindrome(str) {
 }
 console.log(isPalindrome('level'));
 console.log(isPalindrome('A car, a man, a maraca'));
+
+const nemo = ['nemo'];
+
+function findNemo(arr) {
+    let t0 = performance.now()
+    for (let i = 0; 0 < arr.length; i++) {
+        if (arr[i] ==='nemo') {
+            console.log('Found Nemo');
+        }
+    }
+    let t1 = performance.now()
+    console.log('the call to find Nemo took ' + (t1 - t0) + ' miliseconds')
+}
+findNemo(nemo);
