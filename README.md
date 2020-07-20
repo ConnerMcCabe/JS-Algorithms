@@ -17,8 +17,8 @@ recursion vs iterative
         one problem, do it over and over again on a smaller or changing piece until you hit an end point, the base case
     2 components that make up a recursive function
     How to visualize the call stack to better understand and debug recursive functions
-    
-Big O, asymptotic analysis- what is it? what are time complexities? It is useful in the analysis of algorithms and determining efficiency over time
+
+Big O, asymptotic analysis- what is it? what are time complexities? It is useful in the analysis of algorithms and determining efficiency over time. How well was the problem solved, in coding there is often many ways to solve a problem and Big O allows us to objectively determine if it is a "better" solution
 for simplicity it is reduced to a few base cases
 * 1- just the time it takes to do a single action
 * log²n
