@@ -10,18 +10,18 @@ function pigLt(str) {
     }
     return pigArr.join(' ');
 }
-console.log(pigLt('bolster'));
-console.log(pigLt('cannon'));
+// console.log(pigLt('bolster'));
+// console.log(pigLt('cannon'));
 
 //is palindrome
 function isPalindrome(str) {
     str = str.toLowerCase();
     return (str == str.split('').reverse().join(''));
 }
-console.log(isPalindrome('level'));
-console.log(isPalindrome('A car, a man, a maraca'));
+// console.log(isPalindrome('level'));
+// console.log(isPalindrome('A car, a man, a maraca'));
 
-const nemo = ['nemo'];
+const nemo = ['nemo', 'bruce', 'carl', 'alberta', 'jeff', 'kyle'];
 
 function findNemo(arr) {
     let t0 = performance.now()
@@ -33,4 +33,10 @@ function findNemo(arr) {
     let t1 = performance.now()
     console.log('the call to find Nemo took ' + (t1 - t0) + ' miliseconds')
 }
-findNemo(nemo);
+
+//first and last
+
+function firstLast(arr) {
+    let objOutput = { [arr[0]]: [...arr].pop() }
+    return objOutput
+}
