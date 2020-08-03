@@ -11,7 +11,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     running through different ways to solve a problem, finding nemo and taking a look at visualizing how long each approach is going to take using performance.now()
 ### D4- First and Last
     a function that takes an array and returns the first and last items entered into it
-
+### D5- Arrays in Common
+    a function that takes two arrays and compares the contents to see if they have any items in common, then returns a boolean
 ## Notes
 recursion vs iterative
     What is recursion? how is it used
@@ -31,3 +32,12 @@ for simplicity it is reduced to a few base cases
 * O(2↑n)- O of 2 to the Nth power; takes forever,a brute force solution
 
 ![BigO visualized](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Comparison_computational_complexity.svg/1024px-Comparison_computational_complexity.svg.png)
+
+
+problem solving strategies- 
+* breakdown problem into several smaller points, write them out as a bulleted list
+* double check on what are expected inputs and outputs (are there any; time, space, or memory constraints)
+* if it can be solved with brute force, explain that first (but be able to explain why this might not be the best solution)
+* walk through your thought process and psuedo code out your thoughts (and start writing code)
+* execute your thoughts in as readable fashion as possible (no confusing naming conventions, no short cuts)
+
