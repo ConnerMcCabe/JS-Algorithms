@@ -45,6 +45,7 @@ const array1 = ['a','b','c','d','f']
 const array2 = ['f','i','j','k','l']
 
 function commonItems(arr1, arr2) {
+//O(a*b)- objectively a bad but correct solution
     for (let i = 0; i < arr1.length; i++) {
         for (let j = 0; j< arr2.length; j++) {
             if (arr1[i] === arr2[j]) {
@@ -53,4 +54,10 @@ function commonItems(arr1, arr2) {
         }
     }
     return false
+}
+
+function commonItems2(arr1, arr2) {
+//get the time complexity down
+//loop through the first array and create object where properties === items in the array
+//loop through the second array and check if item in second array exists on created object
 }
