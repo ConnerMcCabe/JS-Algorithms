@@ -69,6 +69,20 @@ function commonItems2(arr1, arr2) {
     }
 //loop through the second array and check if item in second array exists on created object
     for (let j = 0; j < arr2.length; j++) {
-        if (map[arr2[j]])
+        if (map[arr2[j]]) {
+            return true
+        }
     }
+    return false
 }
+//if the arrays get excessively large, solution 2 is considerably better
+//try to break it after you write it
+//console.log(containsItem2(array1,array2))
+
+//methods can simplify code and make them more readable (depends on the language you are using)
+//make sure your code is as modular and commented as possible
+function containsItem3(arr1,arr2) {
+    return arr1.some(item => arr2.includes(item))
+}
+//what a sexy solution
+//console.log(containsItem3(array1,array2))
