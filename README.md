@@ -13,6 +13,9 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     a function that takes an array and returns the first and last items entered into it
 ### D5- Arrays in Common
     a function that takes two arrays and compares the contents to see if they have any items in common, then returns a boolean
+### D6- Adding to containsItem and hasPairSum functions
+    given an array and a sum, find two integers within the array that add up to the sum and return a bool if true
+
 ## Notes
 recursion vs iterative
     What is recursion? how is it used

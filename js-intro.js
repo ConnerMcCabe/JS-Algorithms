@@ -55,9 +55,20 @@ function commonItems(arr1, arr2) {
     }
     return false
 }
+//O(a+b) and O(1)- space complexity vs 
+//O(a*b) O(a)- space complexity = big time difference but uses more space, what is more value?
 
 function commonItems2(arr1, arr2) {
-//get the time complexity down
 //loop through the first array and create object where properties === items in the array
+    let map = {};
+    for (let i = 0; i < arr1.length; i++) {
+        if(!map[arr1[i]]) {
+            const item = arr1[i];
+            map[item] = true;
+        }
+    }
 //loop through the second array and check if item in second array exists on created object
+    for (let j = 0; j < arr2.length; j++) {
+        if (map[arr2[j]])
+    }
 }
