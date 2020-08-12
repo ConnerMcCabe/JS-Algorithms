@@ -44,3 +44,7 @@ problem solving strategies-
 * walk through your thought process and psuedo code out your thoughts (and start writing code)
 * execute your thoughts in as readable fashion as possible (no confusing naming conventions, no short cuts)
 
+### Data Structures
+Data Structures + Algorithms = programs
+DataStructures- a collection of values, Algorithms- the steps we use to manipulate values
+DataStructures- how to build one/ how to use it

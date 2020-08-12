@@ -86,3 +86,28 @@ function containsItem3(arr1,arr2) {
 }
 //what a sexy solution
 //console.log(containsItem3(array1,array2))
+
+function hasPairSum(arr, sum) {
+    let len = arr.length;
+    for (let i = 0; i < len - 1; i++) {
+        for (let j = i + 1; j < len; j++) {
+            if (arr[i] + arr[j] === sum) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function hasPairSum2(arr, sum) {
+    const mySet = new Set();
+    const len = arr.length;
+    for (let i = 0; i < len; i++) {
+        if (mySet.has(arr[1])) {
+            return true;
+        }
+        mySet.add(sum - arr[i])
+    }
+    return false
+}
+//console.log(hasPairSum([6,4,3,2,1], 9))
