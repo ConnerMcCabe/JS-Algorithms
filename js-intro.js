@@ -111,3 +111,5 @@ function hasPairSum2(arr, sum) {
     return false
 }
 //console.log(hasPairSum([6,4,3,2,1], 9))
+
+const strings = ['a', 'b', 'c', 'd']

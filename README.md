@@ -48,3 +48,12 @@ problem solving strategies-
 Data Structures + Algorithms = programs
 DataStructures- a collection of values, Algorithms- the steps we use to manipulate values
 DataStructures- how to build one/ how to use it
+
+Arrays- also known as lists, stored in contiguous memory. If all you need is to store data and iterate over it, this is a good choice
+### Methods and their time complexity examples
+* lookup- O(1)
+* push- O(1) add something to the end of an array
+* pop- O(1) remove the last item of an array
+* unshift- O(1) add somthing to the beginning of an array
+* insert- O(n)
+* delete O(n)
