@@ -113,3 +113,19 @@ function hasPairSum2(arr, sum) {
 //console.log(hasPairSum([6,4,3,2,1], 9))
 
 const strings = ['a', 'b', 'c', 'd']
+
+function getCount(str) {
+    let vowels = new Array('a','e','i','o','u');
+    let vowelsCount = 0;
+    str.split('').forEach(character => {
+        if(vowels.includes(character)) {
+            vowelsCount += 1
+        }
+    })
+    
+    return vowelsCount;
+}
+
+// console.log(getCount('pear tree'))
+// console.log(getCount('o a kak ushakov lil vo kashu kakao'))
+// console.log(getCount('abracadabra'))
