@@ -115,7 +115,7 @@ function hasPairSum2(arr, sum) {
 const strings = ['a', 'b', 'c', 'd']
 
 function getCount(str) {
-    let vowels = new Array('a','e','i','o','u');
+    let vowels = ['a','e','i','o','u'];
     let vowelsCount = 0;
     str.split('').forEach(character => {
         if(vowels.includes(character)) {
@@ -129,3 +129,9 @@ function getCount(str) {
 // console.log(getCount('pear tree'))
 // console.log(getCount('o a kak ushakov lil vo kashu kakao'))
 // console.log(getCount('abracadabra'))
+
+function reverseString(str) {
+    return str.split('').reverse().join('')
+}
+
+// console.log(reverseString('tasty'))
