@@ -136,6 +136,10 @@ function reverseString(str) {
 
 // console.log(reverseString('tasty'))
 
+const arr1 = [2, 5, 6, 8, 12, 24];
+const arr1 = [3, 4, 7, 8, 13, 27];
+
 function mergeTwo(arr1, arr2) {
-    
+    let result = [...arr1, ...arr2];
+    return result.sort((a,b) => a-b);
 }
