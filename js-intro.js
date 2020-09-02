@@ -135,3 +135,7 @@ function reverseString(str) {
 }
 
 // console.log(reverseString('tasty'))
+
+function mergeTwo(arr1, arr2) {
+    
+}

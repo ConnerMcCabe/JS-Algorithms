@@ -18,6 +18,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     a function that takes two arrays and compares the contents to see if they have any items in common, then returns a boolean
 ### D7- VowelCount
     Return the number (count) of vowels in the given string. Consider (a, e, i, o, u) as vowels (but not y). The input string will only consist of lower case letters and/or spaces.
+### D8- MergeSortedArrays
+    given two sorted arrays into a single sorted array
 
 ## Notes
 recursion vs iterative
