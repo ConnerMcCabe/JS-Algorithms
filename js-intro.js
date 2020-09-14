@@ -172,3 +172,21 @@ function mergedArray(arr1, arr2) {
     }
     return merged;
 }
+
+function toWeirdCase(string){
+    let result = []
+    for (let i = 0; i < string.length; i++) {
+        if (i % 2 != 0) {
+            result += string[i].toLowerCase();
+        }
+        else {
+            result += string[i].toUpperCase();
+        }   
+    }
+    console.log(string)
+    return result.join();
+}
+let a = ['goose', 'geese', 'meece']
+
+console.log(toWeirdCase( "String" ));//=> returns "StRiNg"
+console.log(toWeirdCase( "Weird string case" ));//=> returns "WeIrD StRiNg cAsE"
