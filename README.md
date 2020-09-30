@@ -25,6 +25,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     given a string, return the same string with all even indexed characters in each word upper cased, and all odd indexed
     characters in each word lower cased, the zeroth index being even (therefore capitalized) strings will only contain 
     alphabetical characters and spaces, spaces only present with multiple words and will only contain a single space
+### D10- Romanize
+    given a positive number, return a string that contains the Roman Numeral representation of the integer
 
 ## Notes-
 problem solving strategies- 
