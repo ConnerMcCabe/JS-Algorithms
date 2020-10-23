@@ -27,6 +27,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     alphabetical characters and spaces, spaces only present with multiple words and will only contain a single space
 ### D10- Romanize
     given a positive number, return a string that contains the Roman Numeral representation of the integer
+### D11- FirstRecurringCharacter
+    given an array, determine if there are any characters that are repeated within and return the first character
 
 ## Notes-
 problem solving strategies- 
