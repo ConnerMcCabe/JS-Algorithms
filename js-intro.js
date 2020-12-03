@@ -229,3 +229,17 @@ function fRC2(input) {
     return undefined;
 }
 fRC2([2,5,1,2,3,5,1,2,4]);
+
+function twoSum(numbers, target) {
+    numbersIndex = {};
+
+    for (let i = 0; i < numbers.length; i++) {
+        let currentDiff = target - numbers[i];
+
+        if (numbersIndex[currentDiff] !== undefined && numbersIndex[currentDiff] !== i) {
+            return [i, numbersIndex[currentDiff]];
+        } else {
+            numbersIndex[numbers[i]] = i
+        }
+    }
+}

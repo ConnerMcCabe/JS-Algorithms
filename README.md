@@ -29,6 +29,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     given a positive number, return a string that contains the Roman Numeral representation of the integer
 ### D11- FirstRecurringCharacter
     given an array, determine if there are any characters that are repeated within and return the first character
+### D12- TwoSum
+    given an array of integers and a target integer, find the two numbers in the array that will add up to the target integer
 
 ## Notes-
 problem solving strategies- 
