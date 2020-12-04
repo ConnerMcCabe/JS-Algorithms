@@ -31,6 +31,11 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     given an array, determine if there are any characters that are repeated within and return the first character
 ### D12- TwoSum
     given an array of integers and a target integer, find the two numbers in the array that will add up to the target integer
+### D13- InfiniteCurry
+    create a function that will add numbers in succession no matter the chain length etc.
+    add(1)(2)(3); // 6
+    add(1)(2)(3)(4); // 10
+    add(1)(2)(3)(4)(5); // 15
 
 ## Notes-
 problem solving strategies- 
