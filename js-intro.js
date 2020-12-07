@@ -247,3 +247,17 @@ function twoSum(numbers, target) {
 function curry() {
     
 }
+
+function humanReadable(s) {
+    if (s > 359999) {
+        return "congrats, you have too many seconds"
+    } else {
+        hours = Math.floor(s / 3600);
+        minutes = Math.floor((s - (hours * 3600)/ 60));
+        seconds = s - (hours * 3600) - (minutes * 60);
+
+        timeString = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0');
+
+        return timeString;
+    }
+}
