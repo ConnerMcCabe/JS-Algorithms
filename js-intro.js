@@ -243,3 +243,7 @@ function twoSum(numbers, target) {
         }
     }
 }
+
+function curry() {
+    
+}

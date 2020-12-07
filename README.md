@@ -36,6 +36,8 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     add(1)(2)(3); // 6
     add(1)(2)(3)(4); // 10
     add(1)(2)(3)(4)(5); // 15
+### D14- ReadableTime
+    write a function that takes a non-negative integer (seconds) as an input and returns the time in a readable format of (HH:MM:SS) The maximum time never exceeds 359999 (99:59:59)
 
 ## Notes-
 problem solving strategies- 
