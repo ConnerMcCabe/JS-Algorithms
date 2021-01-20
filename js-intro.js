@@ -261,3 +261,9 @@ function humanReadable(s) {
         return timeString;
     }
 }
+
+function pangram(str) {
+    const letters = str.toLowerCase().match(/[a-z]/g);
+    const alphabet = [...new Set(letters)]
+    return alphabet.length === 26
+}
