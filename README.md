@@ -40,6 +40,7 @@ An Algorithm a day keeps the Corona at bay, with the occaisional notes mixed in
     write a function that takes a non-negative integer (seconds) as an input and returns the time in a readable format of (HH:MM:SS) The maximum time never exceeds 359999 (99:59:59)
 ### D15- Panagram
     A pangram is a sentence that contains every single letter of the alphabet at least once (case is irrelevant). Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+### D16-
 
 ## Notes-
 problem solving strategies- 
